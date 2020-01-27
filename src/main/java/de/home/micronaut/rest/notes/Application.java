@@ -1,4 +1,4 @@
-package de.home.micronaut;
+package de.home.micronaut.rest.notes;
 
 import io.micronaut.runtime.Micronaut;
 

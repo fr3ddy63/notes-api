@@ -23,7 +23,7 @@ micronaut:
           enabled: true
 datasources:
   default:
-    url: ${JDBC_URL:`jdbc:h2:file:~/Coding/databases/notes;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE`}
+    url: ${JDBC_URL:`jdbc:h2:file:~/Coding/databases/notes-test;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE`}
     username: ${JDBC_USER:fr3ddy}
     password: ${JDBC_PASSWORD:""}
     driverClassname: ${JDBC_DRIVER:org.h2.Driver}
